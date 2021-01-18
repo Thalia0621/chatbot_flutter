@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "robota-jwgi",
+  "private_key_id": "907c9bd3e6f65c9a08e048ac578daca4d184d73a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDYBpVlh0neMw+E\ntqfgMv1NKth+qoKAa3UU1p+UedJaJ4hc82fl3PzN3BJIZ6tzfy9c9goma3oiXOiY\nHiP8ny300/u2Hiw2LKU69EAob9mlTZh9dW4qfbUxrPzpJlJHxFTqIOXl7OQbSZ8t\nE9VaEJNZl0+sjv43Aa2iWXZ08XGovquByMSAe2r8+De4cCJ52UPqDkr9NmM6d7Wy\nN95UqgjHYD0OtHx1AKOjE0ZMVZw1DPYII19ZxyBKa3kODsrlL3LPWNGG3arC70OU\n4Ln203rPvLZS3XI6vsVIghsRBt4k/D3m7Fe7MmHZCLSSqKRAP/RDTwfipZNRanUK\nu0wuJzMvAgMBAAECggEAWO5Q52SL/MzRaSWWs53aGD/4syB3q+1Q3DzEoieKeLHI\nmddcYM0aR5b+8c63zsq/kUn6gLmDJI1R9XmHABL5pM311BHUypKTjNMLbHorQ7lP\neupyaUyp4KLh1QuBGOlSubXEXuSoPTGQNUrybGrhdiLr2lJdhgCLXgftU5Qn4bqm\n+dwjQG1xTuq1AsFCB7efzRrN8y3EcwQ71hoHKBG2tEJxkAARij7hDTL7bt4Ju3PK\nYBojUpdJ1o3U8Rx1MkXWfezfstduWyHseL8/VYyVgVobgm6MuGu5nzIEe2aErHMl\nO7cQmEBXoX+nGWgEbRfXv70atT+7b6NPncc5qopb7QKBgQDzwfyrDZWr+vdnbe30\nKayshFsZr60Pp3AM12jj90uojBRHl6hQtWY6vslU4MEst3XzL31W2mU2IBN4HCrK\nxtdG5jNbVElIOILAojn1RHov1rGaaEObfu/AyzvTEqNuxDh+7IwJ2FeGo6FQjP+3\nUvUYYVaycY6DZSPO6O990LMdcwKBgQDi4Ashtnz+WJxrVidAvFbIXIhr/F4/Ig0X\n37heZfUHqOT1+lsApKMYA6JnobfBljextG4cwi1R0QoVKAUQzCX6hjzP66jzJJfo\nMzNth+IJ3eeZVS6Z2YmID2r++qK5UaHD6dlL2QtQ7T/MWYKheMri8j1jX17bSSOv\ne3YBVLzkVQKBgQDU8FqshxKACZ5FAVhE2n8YugrnVntFWIze+vKLawXx+GTi4c5M\nqxriKLayaiD20lG8nnjM/b462SyI2XpcZ/W53vFwUCIwcAVxCIa/BxICZngCHiEp\nXmtNLX1Wd0rEQa/k2PnAw/g6Cwmp13KwEE1B/g6BlgfcKudsIjrM2xsNlwKBgQCp\nkLYBLnlhSC0wdCXGVn2uJqq3utld6j9K9qS/uQhX/z2RMtrNMj/LdPvu5ImIoJNj\nt+0MhXyFx+z3Pv/6O/qusaHF7OZLQ7Bdldb8KDEjGr08dtPrnRETpiJcDEuOopp6\n6M7Fx6STiZ7DRqtBsBxDXrXPDbrBvnpzb50VBZZgOQKBgQDWEIgGtvQepiBP60zr\nR6418SOOMRekdO8mU4ns1j3G/4PoI1+M6udbopjthwebukrs8G5XRgxGm5d9MOpM\nAUrBySSbjXhG98zNQyftdMYSKOTEkvr6NpqSiuFYyAH01csKM+I0jQYuCjqKddmb\nY95nsDltON4MqasJYxGAGAssIw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-integrations@robota-jwgi.iam.gserviceaccount.com",
+  "client_id": "104755652500282499051",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-integrations%40robota-jwgi.iam.gserviceaccount.com"
+}
