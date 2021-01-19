@@ -29,6 +29,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
   flutter_dialogflow: ^0.1.3
+  fluttertoast: ^7.1.6
   bubble: ^1.1.9+1
   
 
@@ -48,7 +49,7 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets: 
-  - lib/src/assets/robota-jwgi-907c9bd3e6f6.json
+  - lib/src/assets/robota-jwgi-4b81d63a822f.json
   - lib/src/image/fondo.jpg
 
   # To add assets to your application, add an assets section, like this:

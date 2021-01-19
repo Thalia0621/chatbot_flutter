@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dialogflow/dialogflow_v2.dart';
 import 'package:bubble/bubble.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
@@ -11,10 +12,12 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
+  
+  final messageInsert = TextEditingController();
+  List<Map> messsages = List();
   void response(query) async {
     AuthGoogle authGoogle = await AuthGoogle(
-            fileJson: "lib/src/assets/robota-jwgi-907c9bd3e6f6.json")
+            fileJson: "lib/src/assets/robota-jwgi-4b81d63a822f.json")
         .build();
     Dialogflow dialogflow =
         Dialogflow(authGoogle: authGoogle, language: Language.spanish);
@@ -27,10 +30,6 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
-  final messageInsert = TextEditingController();
-  List<Map> messsages = List();
-
-  //Colors
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -57,17 +56,19 @@ class _MyHomePageState extends State<MyHomePage> {
             Divider(
               height: 20.0,
               color: Colors.teal,
+              thickness: 10,
+              indent: 10,
+              endIndent: 10,
             ),
             Container(
-              padding: EdgeInsets.only(left: 15.0, right: 15.0),
+              padding: EdgeInsets.only(left: 30.0, right: 10.0),
               margin: const EdgeInsets.symmetric(horizontal: 8.0),
               child: Row(
                 children: <Widget>[
                   Flexible(
-                      child: TextField(
+                    child: TextField(
                     controller: messageInsert,
                     decoration: InputDecoration.collapsed(
-                        
                         hintText: "Escribe un mensaje...",
                         hintStyle: TextStyle(
                             fontWeight: FontWeight.bold, fontSize: 20.0)),
@@ -82,7 +83,15 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                         onPressed: () {
                           if (messageInsert.text.isEmpty) {
-                            print("empty message");
+                            Fluttertoast.showToast(
+                                msg: "Mensaje vacio",
+                                toastLength: Toast.LENGTH_SHORT,
+                                gravity: ToastGravity.BOTTOM,
+                                timeInSecForIosWeb: 1,
+                                backgroundColor: Colors.grey[300],
+                                textColor: Colors.black,
+                                fontSize: 16.0
+                            );
                           } else {
                             setState(() {
                               messsages.insert(0,
